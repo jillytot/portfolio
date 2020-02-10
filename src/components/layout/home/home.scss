@@ -1,0 +1,26 @@
+@import "../../../styles/mixins/layout.scss";
+
+.home {
+  &__container {
+    @include app-container;
+  }
+  &__top-nav-container {
+    @include top-nav-container;
+    background: green;
+  }
+  &__menu-container {
+    @include menu-container;
+  }
+  &__left-nav-container {
+    @include left-nav-container;
+    background: red;
+  }
+  &__content-container {
+    @include content-container;
+    background: blue;
+  }
+  &__footer-container {
+    @include footer-container;
+    background: purple;
+  }
+}
