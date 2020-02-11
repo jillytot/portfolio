@@ -2,3 +2,18 @@
 $top-nav-height: 48px;
 $footer-height: 48px;
 $padding-container: 24px;
+$padding-nav: 6px;
+$padding-footer: 6px;
+
+//colors:
+
+$dark-blue: #20232a;
+$dark-blue-lighter: #293144;
+$cool-black: #141924;
+
+//Set Colors:
+$main-background-color: $dark-blue;
+$top-nav-background-color: $dark-blue-lighter;
+$left-nav-background-color: $cool-black;
+$content-background-color: $dark-blue;
+$footer-background-color: $dark-blue-lighter;

@@ -1,0 +1,18 @@
+.menuItem {
+  &__outer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__button {
+    height: 128px;
+    width: 128px;
+    border-radius: 24px;
+    background: rgb(34, 34, 46);
+    top: 64px;
+    left: 64px;
+    padding: 12px;
+    margin: 12px;
+    border: 0px;
+    cursor: pointer;
+  }
+}
